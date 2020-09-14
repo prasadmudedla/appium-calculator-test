@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <test name="AllTests(failed)">
+    <classes>
+      <class name="com.testCases.CalculateEquationResultTestCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testCalculateResultOfEquation"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testCases.CalculateEquationResultTestCase -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
